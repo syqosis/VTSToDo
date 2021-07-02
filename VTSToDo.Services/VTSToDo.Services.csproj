@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VTSToDo.DAL\VTSToDo.DAL.csproj" />
+    <ProjectReference Include="..\VTSToDo.Models\VTSToDo.Models.csproj" />
+    <ProjectReference Include="..\VTSToDo.Shared\VTSToDo.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

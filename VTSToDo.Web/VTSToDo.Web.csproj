@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.7" />
+    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="6.11.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.11.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VTSToDo.DAL\VTSToDo.DAL.csproj" />
+    <ProjectReference Include="..\VTSToDo.Models\VTSToDo.Models.csproj" />
+    <ProjectReference Include="..\VTSToDo.Services\VTSToDo.Services.csproj" />
+    <ProjectReference Include="..\VTSToDo.Shared\VTSToDo.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
